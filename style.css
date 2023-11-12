@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(147, 49, 49, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+main {
+    /* margin: 30px 120px 0px 120px; */
+}
+.sect__container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 120px 0px 120px;
+    height: 630px;
+}
+h1 {
+    font-size: 2rem;
+}
+.div__img {
+    width: 433px;
+    height: 361px;
+    border-radius: 20px;
+    box-shadow: rgba(74, 54, 54, 1) 20px 20px 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 40px;
+}
+.icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+.div_container {
+    margin-top: 10%;
+}
+nav {
+    background-color: rgba(40, 36, 36, 0.34);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.a__container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.div__logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 45px;
+}
+
+.div__nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+.sect_2container {
+    background-color: rgba(44, 134, 118, 1);
+    height: 800px;
+}
+.h1cont2 {
+    padding-top: 60px;    
+    text-align: center;
+}
+.cont2img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 120px 0px 120px;
+}
+.sect_3container {
+    background-color: rgba(44, 74, 134, 1);
+    height: 700px;
+}
+
+.pcont { 
+    text-align: center;
+    margin: 50px 380px 0px 380px;
+    font-size: 1.4rem;
+}
+
+.div_2container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: space-around;
+    margin-top: 80px;
+}
+footer {
+    background: rgba(44, 74, 134, 1);
+    /* height: 500px; */
+}
+.foot__div {
+    height: 90px;
+    background-color: rgba(152, 152, 152, 0.21);
+    display: grid;
+    /* justify-content: center; */
+}
+.foot__parag {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.logotypes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: end;
+}
+.logotypes img:hover {
+    display:block;
+    width: 40px;
+    cursor: pointer;
+}
+
